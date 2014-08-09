@@ -10432,185 +10432,161 @@ html {
   margin-top: 51px !important;
   padding: 10px 0;
 }
-
 @media screen and (max-width: 1199px) {
-  /* line 6, ../../app/states/index/index/_index-state.scss */
-  .event-title {
+  /* line 4, ../../app/states/index/index/_index-state.scss */
+  .index-state .event-title {
     text-align: center;
   }
 }
-/* line 10, ../../app/states/index/index/_index-state.scss */
-.event-title .date {
+/* line 8, ../../app/states/index/index/_index-state.scss */
+.index-state .event-title .date {
   font-size: 60%;
 }
-
-/* line 16, ../../app/states/index/index/_index-state.scss */
-.search-area,
-.available-filter {
+/* line 14, ../../app/states/index/index/_index-state.scss */
+.index-state .search-area,
+.index-state .available-filter {
   margin-top: 30px;
 }
-
 @media screen and (max-width: 1199px) {
-  /* line 19, ../../app/states/index/index/_index-state.scss */
-  .search-area {
+  /* line 17, ../../app/states/index/index/_index-state.scss */
+  .index-state .search-area {
     text-align: left;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 19, ../../app/states/index/index/_index-state.scss */
-  .search-area {
+  /* line 17, ../../app/states/index/index/_index-state.scss */
+  .index-state .search-area {
     text-align: center;
   }
 }
-
-/* line 27, ../../app/states/index/index/_index-state.scss */
-#searchbox {
+/* line 25, ../../app/states/index/index/_index-state.scss */
+.index-state #searchbox {
   margin-left: 10px;
-  width: 300px;
+  width: 250px;
 }
 @media screen and (max-width: 991px) {
-  /* line 27, ../../app/states/index/index/_index-state.scss */
-  #searchbox {
+  /* line 25, ../../app/states/index/index/_index-state.scss */
+  .index-state #searchbox {
     width: 75%;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 27, ../../app/states/index/index/_index-state.scss */
-  #searchbox {
-    width: 300px;
+  /* line 25, ../../app/states/index/index/_index-state.scss */
+  .index-state #searchbox {
+    width: 250px;
   }
 }
-
-/* line 37, ../../app/states/index/index/_index-state.scss */
-.available-filter {
+/* line 35, ../../app/states/index/index/_index-state.scss */
+.index-state .available-filter {
   margin-top: 25px;
   text-align: right;
 }
 @media screen and (max-width: 767px) {
-  /* line 40, ../../app/states/index/index/_index-state.scss */
-  .available-filter p {
+  /* line 38, ../../app/states/index/index/_index-state.scss */
+  .index-state .available-filter p {
     text-align: center;
   }
 }
-
-/* line 48, ../../app/states/index/index/_index-state.scss */
-.threads,
-.key {
+/* line 46, ../../app/states/index/index/_index-state.scss */
+.index-state .threads,
+.index-state .key {
   margin-top: 20px;
 }
-
-/* line 53, ../../app/states/index/index/_index-state.scss */
-.key ul {
+/* line 51, ../../app/states/index/index/_index-state.scss */
+.index-state .key ul {
   padding: 0;
 }
-/* line 55, ../../app/states/index/index/_index-state.scss */
-.key ul li {
+/* line 53, ../../app/states/index/index/_index-state.scss */
+.index-state .key ul li {
   list-style: none;
   padding: 5px;
 }
-
-/* line 62, ../../app/states/index/index/_index-state.scss */
-.release-area {
+/* line 60, ../../app/states/index/index/_index-state.scss */
+.index-state .release-area {
   margin: 30px 0;
 }
-/* line 64, ../../app/states/index/index/_index-state.scss */
-.release-area a:visited {
+/* line 62, ../../app/states/index/index/_index-state.scss */
+.index-state .release-area a:visited {
   color: #aaaaaa;
 }
-
-/* line 69, ../../app/states/index/index/_index-state.scss */
-.techno {
+/* line 67, ../../app/states/index/index/_index-state.scss */
+.index-state .techno {
   background-color: #5d796d;
 }
-
-/* line 70, ../../app/states/index/index/_index-state.scss */
-.house {
+/* line 68, ../../app/states/index/index/_index-state.scss */
+.index-state .house {
   background-color: #53a75d;
 }
-
-/* line 71, ../../app/states/index/index/_index-state.scss */
-.electro {
+/* line 69, ../../app/states/index/index/_index-state.scss */
+.index-state .electro {
   background-color: #d9c026;
 }
-
-/* line 72, ../../app/states/index/index/_index-state.scss */
-.ukhardcore {
+/* line 70, ../../app/states/index/index/_index-state.scss */
+.index-state .ukhardcore {
   background-color: #dd873d;
 }
-
-/* line 73, ../../app/states/index/index/_index-state.scss */
-.hardstyle {
+/* line 71, ../../app/states/index/index/_index-state.scss */
+.index-state .hardstyle {
   background-color: #6e2b4c;
 }
-
-/* line 74, ../../app/states/index/index/_index-state.scss */
-.electronic {
+/* line 72, ../../app/states/index/index/_index-state.scss */
+.index-state .electronic {
   background-color: #27d975;
 }
-
-/* line 75, ../../app/states/index/index/_index-state.scss */
-.rock {
+/* line 73, ../../app/states/index/index/_index-state.scss */
+.index-state .rock {
   background-color: #e15c54;
 }
-
-/* line 76, ../../app/states/index/index/_index-state.scss */
-.hardrock {
+/* line 74, ../../app/states/index/index/_index-state.scss */
+.index-state .hardrock {
   background-color: #aaaaaa;
 }
-
-/* line 77, ../../app/states/index/index/_index-state.scss */
-.denpa {
+/* line 75, ../../app/states/index/index/_index-state.scss */
+.index-state .denpa {
   background-color: #92d3ec;
 }
-
-/* line 78, ../../app/states/index/index/_index-state.scss */
-.hiphop {
+/* line 76, ../../app/states/index/index/_index-state.scss */
+.index-state .hiphop {
   background-color: #091f36;
 }
-
-/* line 79, ../../app/states/index/index/_index-state.scss */
-.piano {
+/* line 77, ../../app/states/index/index/_index-state.scss */
+.index-state .piano {
   background-color: #5ea7a7;
 }
-
-/* line 80, ../../app/states/index/index/_index-state.scss */
-.classical {
+/* line 78, ../../app/states/index/index/_index-state.scss */
+.index-state .classical {
   background-color: #992da9;
 }
-
-/* line 81, ../../app/states/index/index/_index-state.scss */
-.unknown {
+/* line 79, ../../app/states/index/index/_index-state.scss */
+.index-state .unknown {
   background-color: #ca38a9;
 }
-
-/* line 84, ../../app/states/index/index/_index-state.scss */
-.hardstyle,
-.hiphop {
+/* line 82, ../../app/states/index/index/_index-state.scss */
+.index-state .hardstyle,
+.index-state .hiphop {
   color: #e6e6e6;
 }
-
-/* line 87, ../../app/states/index/index/_index-state.scss */
-.release-row:hover .hardstyle,
-.release-row:hover .hiphop {
+/* line 85, ../../app/states/index/index/_index-state.scss */
+.index-state .release-row:hover .hardstyle,
+.index-state .release-row:hover .hiphop {
   color: #111111;
 }
-
-/* line 93, ../../app/states/index/index/_index-state.scss */
-.available-mp3 .fa-times,
-.available-flac .fa-times,
-.available-other .fa-times {
+/* line 91, ../../app/states/index/index/_index-state.scss */
+.index-state .available-mp3 .fa-times,
+.index-state .available-flac .fa-times,
+.index-state .available-other .fa-times {
   color: #ff4136;
 }
-/* line 96, ../../app/states/index/index/_index-state.scss */
-.available-mp3 a,
-.available-flac a,
-.available-other a {
+/* line 94, ../../app/states/index/index/_index-state.scss */
+.index-state .available-mp3 a,
+.index-state .available-flac a,
+.index-state .available-other a {
   color: #2ecc40;
 }
-/* line 98, ../../app/states/index/index/_index-state.scss */
-.available-mp3 a:visited,
-.available-flac a:visited,
-.available-other a:visited {
+/* line 96, ../../app/states/index/index/_index-state.scss */
+.index-state .available-mp3 a:visited,
+.index-state .available-flac a:visited,
+.index-state .available-other a:visited {
   color: #aaaaaa;
 }
 
@@ -10621,190 +10597,175 @@ html {
 }
 
 /* line 1, ../../app/states/releases/index/_releases-state.scss */
-.index-state {
+.releases-state {
   margin-top: 51px !important;
   padding: 10px 0;
 }
-
 @media screen and (max-width: 1199px) {
-  /* line 6, ../../app/states/releases/index/_releases-state.scss */
-  .event-title {
+  /* line 4, ../../app/states/releases/index/_releases-state.scss */
+  .releases-state .event-title {
     text-align: center;
   }
 }
-/* line 10, ../../app/states/releases/index/_releases-state.scss */
-.event-title .date {
+/* line 8, ../../app/states/releases/index/_releases-state.scss */
+.releases-state .event-title .date {
   font-size: 60%;
 }
-
-/* line 16, ../../app/states/releases/index/_releases-state.scss */
-.search-area,
-.available-filter {
+/* line 14, ../../app/states/releases/index/_releases-state.scss */
+.releases-state .search-area,
+.releases-state .available-filter {
   margin-top: 30px;
 }
-
 @media screen and (max-width: 1199px) {
-  /* line 19, ../../app/states/releases/index/_releases-state.scss */
-  .search-area {
+  /* line 17, ../../app/states/releases/index/_releases-state.scss */
+  .releases-state .search-area {
     text-align: left;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 19, ../../app/states/releases/index/_releases-state.scss */
-  .search-area {
+  /* line 17, ../../app/states/releases/index/_releases-state.scss */
+  .releases-state .search-area {
     text-align: center;
   }
 }
-
-/* line 27, ../../app/states/releases/index/_releases-state.scss */
-#searchbox {
+/* line 25, ../../app/states/releases/index/_releases-state.scss */
+.releases-state #searchbox {
   margin-left: 10px;
-  width: 300px;
+  width: 220px;
 }
 @media screen and (max-width: 991px) {
-  /* line 27, ../../app/states/releases/index/_releases-state.scss */
-  #searchbox {
+  /* line 25, ../../app/states/releases/index/_releases-state.scss */
+  .releases-state #searchbox {
     width: 75%;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 27, ../../app/states/releases/index/_releases-state.scss */
-  #searchbox {
-    width: 300px;
+  /* line 25, ../../app/states/releases/index/_releases-state.scss */
+  .releases-state #searchbox {
+    width: 215px;
   }
 }
-
-/* line 37, ../../app/states/releases/index/_releases-state.scss */
-.available-filter {
+/* line 35, ../../app/states/releases/index/_releases-state.scss */
+.releases-state .available-filter {
   margin-top: 25px;
   text-align: right;
 }
 @media screen and (max-width: 767px) {
-  /* line 40, ../../app/states/releases/index/_releases-state.scss */
-  .available-filter p {
+  /* line 38, ../../app/states/releases/index/_releases-state.scss */
+  .releases-state .available-filter p {
     text-align: center;
   }
 }
-
-/* line 48, ../../app/states/releases/index/_releases-state.scss */
-.threads,
-.key {
+/* line 46, ../../app/states/releases/index/_releases-state.scss */
+.releases-state .threads,
+.releases-state .info {
   margin-top: 20px;
 }
-
-/* line 53, ../../app/states/releases/index/_releases-state.scss */
-.key ul {
+/* line 51, ../../app/states/releases/index/_releases-state.scss */
+.releases-state .info ul {
   padding: 0;
 }
-/* line 55, ../../app/states/releases/index/_releases-state.scss */
-.key ul li {
+/* line 53, ../../app/states/releases/index/_releases-state.scss */
+.releases-state .info ul li {
   list-style: none;
   padding: 5px;
 }
-
-/* line 62, ../../app/states/releases/index/_releases-state.scss */
-.release-area {
+/* line 60, ../../app/states/releases/index/_releases-state.scss */
+.releases-state .release-area {
   margin: 30px 0;
 }
-/* line 64, ../../app/states/releases/index/_releases-state.scss */
-.release-area a:visited {
+/* line 65, ../../app/states/releases/index/_releases-state.scss */
+.releases-state .releases a:link {
+  color: #0074d9;
+}
+/* line 68, ../../app/states/releases/index/_releases-state.scss */
+.releases-state .releases a:visited {
   color: #aaaaaa;
 }
-
-/* line 69, ../../app/states/releases/index/_releases-state.scss */
-.techno {
+/* line 73, ../../app/states/releases/index/_releases-state.scss */
+.releases-state .techno {
   background-color: #5d796d;
 }
-
-/* line 70, ../../app/states/releases/index/_releases-state.scss */
-.house {
+/* line 74, ../../app/states/releases/index/_releases-state.scss */
+.releases-state .house {
   background-color: #53a75d;
 }
-
-/* line 71, ../../app/states/releases/index/_releases-state.scss */
-.electro {
+/* line 75, ../../app/states/releases/index/_releases-state.scss */
+.releases-state .electro {
   background-color: #d9c026;
 }
-
-/* line 72, ../../app/states/releases/index/_releases-state.scss */
-.ukhardcore {
+/* line 76, ../../app/states/releases/index/_releases-state.scss */
+.releases-state .ukhardcore {
   background-color: #dd873d;
 }
-
-/* line 73, ../../app/states/releases/index/_releases-state.scss */
-.hardstyle {
+/* line 77, ../../app/states/releases/index/_releases-state.scss */
+.releases-state .hardstyle {
   background-color: #6e2b4c;
 }
-
-/* line 74, ../../app/states/releases/index/_releases-state.scss */
-.electronic {
+/* line 78, ../../app/states/releases/index/_releases-state.scss */
+.releases-state .electronic {
   background-color: #27d975;
 }
-
-/* line 75, ../../app/states/releases/index/_releases-state.scss */
-.rock {
+/* line 79, ../../app/states/releases/index/_releases-state.scss */
+.releases-state .rock {
   background-color: #e15c54;
 }
-
-/* line 76, ../../app/states/releases/index/_releases-state.scss */
-.hardrock {
+/* line 80, ../../app/states/releases/index/_releases-state.scss */
+.releases-state .hardrock {
   background-color: #aaaaaa;
 }
-
-/* line 77, ../../app/states/releases/index/_releases-state.scss */
-.denpa {
+/* line 81, ../../app/states/releases/index/_releases-state.scss */
+.releases-state .denpa {
   background-color: #92d3ec;
 }
-
-/* line 78, ../../app/states/releases/index/_releases-state.scss */
-.hiphop {
+/* line 82, ../../app/states/releases/index/_releases-state.scss */
+.releases-state .hiphop {
   background-color: #091f36;
 }
-
-/* line 79, ../../app/states/releases/index/_releases-state.scss */
-.piano {
+/* line 83, ../../app/states/releases/index/_releases-state.scss */
+.releases-state .piano {
   background-color: #5ea7a7;
 }
-
-/* line 80, ../../app/states/releases/index/_releases-state.scss */
-.classical {
+/* line 84, ../../app/states/releases/index/_releases-state.scss */
+.releases-state .classical {
   background-color: #992da9;
 }
-
-/* line 81, ../../app/states/releases/index/_releases-state.scss */
-.unknown {
+/* line 85, ../../app/states/releases/index/_releases-state.scss */
+.releases-state .unknown {
   background-color: #ca38a9;
 }
-
-/* line 84, ../../app/states/releases/index/_releases-state.scss */
-.hardstyle,
-.hiphop {
+/* line 88, ../../app/states/releases/index/_releases-state.scss */
+.releases-state .hardstyle,
+.releases-state .hiphop {
   color: #e6e6e6;
 }
-
-/* line 87, ../../app/states/releases/index/_releases-state.scss */
-.release-row:hover .hardstyle,
-.release-row:hover .hiphop {
+/* line 91, ../../app/states/releases/index/_releases-state.scss */
+.releases-state tr:hover .hardstyle,
+.releases-state tr:hover .hiphop {
   color: #111111;
 }
-
-/* line 93, ../../app/states/releases/index/_releases-state.scss */
-.available-mp3 .fa-times,
-.available-flac .fa-times,
-.available-other .fa-times {
+/* line 97, ../../app/states/releases/index/_releases-state.scss */
+.releases-state .available-mp3 .fa-times,
+.releases-state .available-flac .fa-times,
+.releases-state .available-other .fa-times {
   color: #ff4136;
 }
-/* line 96, ../../app/states/releases/index/_releases-state.scss */
-.available-mp3 a,
-.available-flac a,
-.available-other a {
+/* line 100, ../../app/states/releases/index/_releases-state.scss */
+.releases-state .available-mp3 a:link,
+.releases-state .available-flac a:link,
+.releases-state .available-other a:link {
   color: #2ecc40;
 }
-/* line 98, ../../app/states/releases/index/_releases-state.scss */
-.available-mp3 a:visited,
-.available-flac a:visited,
-.available-other a:visited {
+/* line 103, ../../app/states/releases/index/_releases-state.scss */
+.releases-state .available-mp3 a:visited,
+.releases-state .available-flac a:visited,
+.releases-state .available-other a:visited {
   color: #aaaaaa;
+}
+
+/* line 109, ../../app/states/releases/index/_releases-state.scss */
+.pagination {
+  margin: 0;
 }
 
 /* line 3, ../../app/styles/_animations.scss */
