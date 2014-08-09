@@ -1,44 +1,30 @@
 @charset "UTF-8";
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Noto Sans Japanese';
   font-style: normal;
   font-weight: 300;
-  src: local("Open Sans Light"), local("OpenSans-Light"), url(../assets/fonts/open-sans-light.woff) format("woff");
+  src: local("Noto Sans Japaneses Light"), local("NotoSansJP-Light"), url(../assets/fonts/NotoSansJP-Light.otf) format("otf");
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Noto Sans Japanese';
   font-style: normal;
   font-weight: 400;
-  src: local("Open Sans"), local("OpenSans"), url(../assets/fonts/open-sans.woff) format("woff");
+  src: local("Noto Sans Japaneses Regular"), local("NotoSansJP-Regular"), url(../assets/fonts/NotoSansJP-Regular.otf) format("otf");
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Noto Sans Japanese';
   font-style: normal;
   font-weight: 600;
-  src: local("Open Sans Semibold"), local("OpenSans-Semibold"), url(../assets/fonts/open-sans-semibold.woff) format("woff");
+  src: local("Noto Sans Japaneses Medium"), local("NotoSansJP-Medium"), url(../assets/fonts/NotoSansJP-Medium.otf) format("otf");
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Noto Sans Japanese';
   font-style: normal;
   font-weight: 700;
-  src: local("Open Sans Bold"), local("OpenSans-Bold"), url(../assets/fonts/open-sans-bold.woff) format("woff");
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 400;
-  src: local("Open Sans Italic"), local("OpenSans-Italic"), url(../assets/fonts/open-sans-italic.woff) format("woff");
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 300;
-  src: local("Open Sans Light Italic"), local("OpenSansLight-Italic"), url(../assets/fonts/open-sans-italic-light.woff) format("woff");
+  src: local("Noto Sans Japaneses Bold"), local("NotoSansJP-Bold"), url(../assets/fonts/NotoSansJP-Bold.otf) format("otf");
 }
 
 /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
@@ -410,7 +396,7 @@ html {
 
 /* line 22, ../../app/bower_components/sass-bootstrap/lib/_scaffolding.scss */
 body {
-  font-family: "Open Sans", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: "Noto Sans Japanese", "Noto Sans", "Helvetica Neue", Helvetica, Arial, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
   font-size: 13px;
   line-height: 20px;
   color: #333333;
@@ -597,7 +583,7 @@ cite {
 /* line 79, ../../app/bower_components/sass-bootstrap/lib/_type.scss */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Open Sans", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: "Noto Sans Japanese", "Noto Sans", "Helvetica Neue", Helvetica, Arial, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -10478,7 +10464,7 @@ html {
 }
 /* line 35, ../../app/states/index/index/_index-state.scss */
 .index-state .available-filter {
-  margin-top: 25px;
+  margin-top: 15px;
   text-align: right;
 }
 @media screen and (max-width: 767px) {
@@ -10647,7 +10633,7 @@ html {
 }
 /* line 35, ../../app/states/releases/index/_releases-state.scss */
 .releases-state .available-filter {
-  margin-top: 25px;
+  margin-top: 15px;
   text-align: right;
 }
 @media screen and (max-width: 767px) {
