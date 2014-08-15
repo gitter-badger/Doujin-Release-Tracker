@@ -6,14 +6,20 @@ angular.module('doujinReleaseTracker')
     {
       $stateProvider.state('releases', stateFactory('Releases', {
         url: '/releases/{eventId:[c[0-9]+]*}',
-        templateUrl: 'states/releases/index/main-view.html'
+        templateUrl: 'states/releases/index/main-view.html',
+        resolve: {
+          contributors: "getContributors"
+        }
       }));
     }
     else
     {
       $stateProvider.state('releases', stateFactory('Releases', {
         url: '/releases/{eventId:[[0-9]+]*}',
-        templateUrl: 'states/releases/index/main-view.html'
+        templateUrl: 'states/releases/index/main-view.html',
+        resolve: {
+          contributors: "getContributors"
+        }
       }));
     }
   })
@@ -94,7 +100,7 @@ angular.module('doujinReleaseTracker')
                 {
                   var filterby = params.filter().type;
                   orderedData = $filter('filter')(orderedData, function(release){
-                    if (release.type === filterby)
+                    if (release.type.indexOf(filterby) > -1)
                     {
                       return release;
                     }
