@@ -9680,219 +9680,6 @@ td.visible-print {
   content: "\f196";
 }
 
-/***
-
-   colors.css v0.2.0
-   http://clrs.cc
-   @mrmrs
-   MIT License
-
-***/
-/*
-
-   SKINS
-   • Backgrounds
-   • Colors
-
-*/
-/* Backgrounds */
-/* line 12, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-navy {
-  background-color: #001f3f;
-}
-
-/* line 13, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-blue {
-  background-color: #0074d9;
-}
-
-/* line 14, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-aqua {
-  background-color: #7fdbff;
-}
-
-/* line 15, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-teal {
-  background-color: #39cccc;
-}
-
-/* line 16, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-olive {
-  background-color: #3d9970;
-}
-
-/* line 17, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-green {
-  background-color: #2ecc40;
-}
-
-/* line 18, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-lime {
-  background-color: #01ff70;
-}
-
-/* line 19, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-yellow {
-  background-color: #ffdc00;
-}
-
-/* line 20, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-orange {
-  background-color: #ff851b;
-}
-
-/* line 21, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-red {
-  background-color: #ff4136;
-}
-
-/* line 22, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-fuchsia {
-  background-color: #f012be;
-}
-
-/* line 23, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-purple {
-  background-color: #b10dc9;
-}
-
-/* line 24, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-maroon {
-  background-color: #85144b;
-}
-
-/* line 25, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-white {
-  background-color: white;
-}
-
-/* line 26, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-gray {
-  background-color: #aaaaaa;
-}
-
-/* line 27, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-silver {
-  background-color: #dddddd;
-}
-
-/* line 28, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.bg-black {
-  background-color: #111111;
-}
-
-/* Colors */
-/* line 33, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.navy {
-  color: #001f3f;
-}
-
-/* line 34, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.blue {
-  color: #0074d9;
-}
-
-/* line 35, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.aqua {
-  color: #7fdbff;
-}
-
-/* line 36, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.teal {
-  color: #39cccc;
-}
-
-/* line 37, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.olive {
-  color: #3d9970;
-}
-
-/* line 38, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.green {
-  color: #2ecc40;
-}
-
-/* line 39, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.lime {
-  color: #01ff70;
-}
-
-/* line 40, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.yellow {
-  color: #ffdc00;
-}
-
-/* line 41, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.orange {
-  color: #ff851b;
-}
-
-/* line 42, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.red {
-  color: #ff4136;
-}
-
-/* line 43, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.fuchsia {
-  color: #f012be;
-}
-
-/* line 44, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.purple {
-  color: #b10dc9;
-}
-
-/* line 45, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.maroon {
-  color: #85144b;
-}
-
-/* line 46, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.white {
-  color: white;
-}
-
-/* line 47, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.silver {
-  color: #dddddd;
-}
-
-/* line 48, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.gray {
-  color: #aaaaaa;
-}
-
-/* line 49, ../../app/bower_components/mrmrs-colors/sass/_skins.scss */
-.black {
-  color: #111111;
-}
-
-/* Prettier Links */
-/* line 3, ../../app/bower_components/mrmrs-colors/sass/_links.scss */
-a {
-  transition: color .3s ease-in-out;
-}
-
-/* line 7, ../../app/bower_components/mrmrs-colors/sass/_links.scss */
-a:link {
-  color: #0074d9;
-}
-
-/* line 8, ../../app/bower_components/mrmrs-colors/sass/_links.scss */
-a:visited {
-  color: #b10dc9;
-}
-
-/* line 9, ../../app/bower_components/mrmrs-colors/sass/_links.scss */
-a:hover {
-  color: #7fdbff;
-}
-
-/* line 10, ../../app/bower_components/mrmrs-colors/sass/_links.scss */
-a:active {
-  color: #ff851b;
-}
-
 /*!
 angular-xeditable - 0.1.7
 Edit-in-place for angular.js
@@ -10030,6 +9817,27 @@ html {
 /* line 27, ../../app/styles/_globals.scss */
 [ng-click], [ui-sref] {
   cursor: pointer;
+}
+
+/* line 31, ../../app/styles/_globals.scss */
+a {
+  transition: color .3s ease-in-out;
+}
+/* line 33, ../../app/styles/_globals.scss */
+a:link {
+  color: #0074d9;
+}
+/* line 34, ../../app/styles/_globals.scss */
+a:visited {
+  color: #0074d9;
+}
+/* line 35, ../../app/styles/_globals.scss */
+a:hover {
+  color: #7fdbff;
+}
+/* line 36, ../../app/styles/_globals.scss */
+a:active {
+  color: #ff851b;
 }
 
 /* line 2, ../../app/styles/_site-loading.scss */
@@ -10489,7 +10297,7 @@ html {
 }
 /* line 60, ../../app/states/index/index/_index-state.scss */
 .index-state .release-area {
-  margin: 30px 0;
+  margin-top: 30px;
 }
 /* line 62, ../../app/states/index/index/_index-state.scss */
 .index-state .release-area a:visited {
@@ -10658,7 +10466,7 @@ html {
 }
 /* line 60, ../../app/states/releases/index/_releases-state.scss */
 .releases-state .release-area {
-  margin: 30px 0;
+  margin-top: 30px;
 }
 /* line 65, ../../app/states/releases/index/_releases-state.scss */
 .releases-state .releases a:link {
