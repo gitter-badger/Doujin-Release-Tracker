@@ -403,7 +403,7 @@ b.select=function(a){angular.forEach(c,function(a){a.active=!1}),a.active=!0},b.
 // Source: .tmp/scripts/app.js
 /**
  * 
- * @version v3.0.0 - 2014-08-16
+ * @version v3.0.0 - 2014-08-17
  * @link 
  * @author 
  * @license MIT License, http://www.opensource.org/licenses/MIT
